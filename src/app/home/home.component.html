@@ -1,0 +1,30 @@
+<p>
+  home works!
+</p>
+
+<div class="table-responsive">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>VehicleNo</th>
+        <th>VehicleName</th>
+        <th>company</th>
+        <th>Type</th>
+        <th>Price</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let v of vehicle">
+        <td>{{v.VehicleNo}}</td>
+        <td>{{v.VehicleName}}</td>
+        <td>{{v.Company}}</td>
+        <td>{{v.Type}}</td>
+        <td>{{v.Price}}</td>
+        <td>{{v.Description}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
